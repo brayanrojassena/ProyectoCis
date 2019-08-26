@@ -1,70 +1,13 @@
 *{
 	font-family: Verdana, serif;
-}
-html{
-	position: relative;
-	min-height: 100%;
-}
-body{
-	margin-bottom: 85px;
-	margin-top: 110px;
-	font-size: 12px;
-}
-input[type="submit"]:hover {
-	background-color: #9988AA; 
-	border: none;
-	color: white;
-	pointer-events: stroke;
-	cursor: pointer;
+	font-size: 14px;
 }
 
-label {
-	font-size: 14px;
-	padding: 10px 10px 10px; 
-	display: block;
-	position: relative;
-	transform: translate(3%, 0%);
-}
-
-form input{
-	font-size: 14px;
-	padding: 10px 10px 10px; 
-	display: block;
-	position: relative;
-	transform: translate(5%, 0%);
-}
-form input[type="submit"]{
-	transform: translate(50%, 0%);
-	font-weight: bold;
-	width: 50%;
-	border: none;
-	background-color: #999999;
-	color: #FFF;
-	cursor: pointer;
-}
-form input[type="submit"]:hover{
-	transform: translate(50%, 0%);
-	font-weight: bold;
-	width: 50%;
-	border: none;
-	background-color: #9999AA;
-	color: #FFF;
-	pointer-events: stroke;
-	cursor: pointer;
-}
-form input[type="text"]{
-	width: 90%;
-}
-form input[type='password']{
-	width: 90%;
-}
 .banner{
 	background-color: #9999AA;
-	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
-	min-width: 15%;
 }
 .footer{
 	background-color: #9999AADD;
@@ -82,44 +25,9 @@ form input[type='password']{
 	padding-bottom: 20px; 
 	min-height: 400px;
 }
-.contenedor h1{
-	text-align: center;
-}
 .sesion{
-	background-color: #DDDDDDDD;
 	width: 50%;
-	transform: translate(40%, 0%);
 	padding: 3px 50px 10px; 
-}
-.sesion h1{
-	text-align: center;
-}
-.select{
-	font-size: 16px;
-	padding: 10px 10px 10px; 
-	display: block;
-	width: 93.7%;
-	position: relative;
-	transform: translate(5%, 0%);
-}
-
-.contenedor table{
-	background-color: #FFF;
-	border-collapse: collapse;
-	margin: 150px auto;
-}
-.contenedor thead{
-	background-color: #6666DDDD;
-	color: #FFF;
-}
-.contenedor td, th{
-	padding: 10px;
-}
-.opcion{
-	background-color: #9999AA; 
-	padding: 10px 70px 10px;
-	border: none;
-	color: #EEF;
 }
 #btn_actualizar{
 	background-color:blue;
