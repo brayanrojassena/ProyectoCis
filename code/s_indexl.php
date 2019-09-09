@@ -80,7 +80,7 @@
 				<div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left fijar" style="min-width: 230px; background-color: #FFF;">
 					<center style="margin-bottom: 12px;">
 						<div class="dorpdown-item">
-							<img src="./img/perfil/hola.png" style="border-radius: 100px;width: 150px;height: 150px; border: black 2px solid; margin-top: 15px; margin-bottom: 5px;">	
+							<img src="./img/perfil/account.png" style="border-radius: 100px;width: 150px;height: 150px; border: black 2px solid; margin-top: 15px; margin-bottom: 5px;">	
 						</div>
 						<p>Nombre del Usuario</p>
 						<h6 class="dropdown-header">Rol del Usuario</h6>
