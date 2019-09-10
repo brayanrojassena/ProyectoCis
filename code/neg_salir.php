@@ -1,5 +1,7 @@
 <?php 
 	session_start();
-	$_SESSION["rol"] = 0;
-	header("location:pre_formsesion.php");
+	$_SESSION["usuario"]='0';
+	$_SESSION["admin"]='0';
+	$_SESSION["superadmin"]='0';
+	header("location:pre_iniciarSesion.php");
  ?>
