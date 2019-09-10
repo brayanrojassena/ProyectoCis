@@ -1,6 +1,10 @@
 <?php 
 	session_start();
-	if($_SESSION["rol"] < 1){
-		header("location:salir.php");
+	if($_SESSION["usuario"]<987654321){
+		header("location:neg_salir.php");
+	}
+	if($_SESSION["usuario"]==1){
+		$rolSel=3;
+		$docUs=$_SESSION["documento"];
 	}
  ?>
